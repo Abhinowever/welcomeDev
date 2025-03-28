@@ -10,51 +10,71 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
     <body class="code-font">
-        <header>
-            <h1>My Portfolio</h1>
-            <nav>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </header><hr>
+        <header class="intro">
+            <img src="./Images/profile.jpeg" alt="My Photo" width="150">
+            <h1 class="rock-salt-regular name">Abhinav Singh</h1>
+            <!-- <div></div> -->
+        </header>
+        <nav>
+            <div class="nav">
+                <ul>
+                    <l1><a href="#about">About</a></l1>
+                    <l1><a href="#projects">Projects</a></l1>
+                    <l1><a href="#contact">Contact</a></l1>
+                </ul>
+            </div>
+            <hr>
+        </nav>
+        <h1>My Portfolio</h1>
         <br><br>
-        <Section>
+        <Section id="About">
             <h2 id="about">About Me</h2>
             <p>Hello! My name is Abhinav , and I'm an aspiring web developer. I recently started learning HTML and am excited to build my skills in web development. I love designing clean and functional and creative websites, and I'm always eager to learn new things. Check out my projects below!</p>
-            <img src="./Images/profile.jpeg" alt="My Photo" width="150">
+            
         </Section>
         
-    </p>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <img src="./Images/project1.png" alt="Project 1" width="200">
-            <h3>Project 1</h3>
-            <p>This is a project I made to practice HTML.</p>
-        </div>
-        <div class="project">
-            <img src="./Images/project2.png" alt="Project 2" width="200">
-            <h3>Project 2</h3>
-            <p>This is a project I made to practice CSS.</p>
-        </div>
-        <div class="project">
-            <img src="./Images/project3.png" alt="Project 3" width="200">
-            <h3>Project 3</h3>
-            <p>This is a project I made to practice JavaScript.</p>
-        </div>
-    </section>
-    
-    <section id="Contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me at:
-            <a href="mailto:abcd@.com">abcd@.com</a>
         </p>
-    </section>
-    <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
-    </footer>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I've been working on. Click on the images to view the project.</p>
+            <div id="prj">
+                <div class="project">
+                    <img src="./Images/html.webp" alt="Project 1" width="200">
+                    <div class="content">
+                        <h3>Project 1</h3>
+                        <p>This is a project I made to practice HTML.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./Images/css.jpeg" alt="Project 2" width="200">
+                    <div class="content">
+                        <h3>Project 2</h3>
+                        <p>This is a project I made to practice CSS.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./Images/js.jpeg" alt="Project 3" width="200">
+                    <div class="content">
+                        <h3>Project 3</h3>
+                        <p>This is a project I made to practice JavaScript.</p>
+                    </div>
+                </div>    
+                
+            </div>
+            
+        </section>
+        <br><br><br>
+        <hr>
+        <section id="Contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me at:
+                <a href="mailto:abcd@.com">abcd@.com</a>
+            </p>
+        </section>
+        <footer>
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </footer>
 
-    <script src="Notes.js"></script>
+        <script src="Notes.js"></script>
     </body>
 </html>
